@@ -1,4 +1,10 @@
 #!/usr/bin/perl -w
+# After you download a mod unzip it and rename the mods directory to mods.<modname>
+# (eg. mods.ascension). Inside the mods folder create a blank file with the name of
+# <modname>.mod (eg. ascension.mod) inside of which should be a single
+# line of the mod's name (eg. Babe of Ascension). Finally move the mods.<modname>
+# directory to your Jump King\Content directory.
+
 use strict;
 use warnings;
 
